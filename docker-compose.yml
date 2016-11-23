@@ -13,7 +13,7 @@ services:
     volumes:
       - ./JPF/:/root/work/
     ports:
-      - "8888:8888"
+      - "8889:8889"
     depends_on:
       - db
     links:
